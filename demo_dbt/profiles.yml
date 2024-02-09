@@ -1,0 +1,14 @@
+demo_dbt:
+  outputs:
+    dev:
+      dataset: kursDataset
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: C:\Users\Lenovo\Documents\demo_dbt\demo_dbt\bold-vortex-413512-ec48d7c6ba03.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: bold-vortex-413512
+      threads: 1
+      type: bigquery
+  target: dev
